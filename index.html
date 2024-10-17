@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengkel Kereta Damansara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bengkel Kereta Damansara</h1>
+        <p>Servis Terbaik Untuk Kenderaan Anda!</p>
+    </header>
+
+    <section class="service-form">
+        <h2>Tempah Servis Anda</h2>
+        <form id="booking-form">
+            <label for="vehicle">Jenis Kenderaan:</label>
+            <select id="vehicle" required>
+                <option value="proton">Proton</option>
+                <option value="perodua">Perodua</option>
+                <option value="toyota">Toyota</option>
+                <option value="bmw">BMW</option>
+            </select>
+
+            <label for="service">Pakej Servis:</label>
+            <select id="service" required>
+                <option value="minor">Minor Service</option>
+                <option value="major">Major Service</option>
+            </select>
+
+            <label for="date">Tarikh Servis:</label>
+            <input type="date" id="date" required>
+
+            <button type="submit">Tempah Sekarang</button>
+        </form>
+        <h2>Hubungi Kami di WhatsApp</h2>
+<a href="https://wa.me/60123456789?text=Hi!%20Saya%20ingin%20buat%20tempahan%20servis." 
+   target="_blank">
+   <button style="background-color: #25D366; 
+                  color: white; 
+                  padding: 10px; 
+                  border: none; 
+                  border-radius: 5px; 
+                  cursor: pointer;">
+      WhatsApp Kami Sekarang
+   </button>
+</a>
+
+        <div id="confirmation"></div>
+    </section>
+
+    <script src="script.js"></script>
+    <h2>Lokasi Bengkel Kami</h2>
+<iframe 
+   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.191924058763!2d101.60411726894531!3d3.1456643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc481c72a3d8a3%3A0xa25ffb1076ac06d6!2sDamansara%2C%20Petaling%20Jaya%2C%20Selangor!5e0!3m2!1sen!2smy!4v1697521234567" 
+   width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</body>
+</html>
